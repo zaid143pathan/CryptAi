@@ -1,0 +1,3 @@
+Steganography is the technique of hiding secret data within an ordinary, non-secret file or message to avoid detection. Common carriers include images, audio, video, and text.
+
+The goal is not to encrypt the content, but to conceal its very existence.
