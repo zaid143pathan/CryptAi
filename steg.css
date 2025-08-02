@@ -12,11 +12,14 @@
     background-position: center;
     position: relative;
 }
-nav{
+html {
+  scroll-behavior: smooth;
+}
+nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 2% 6%;
+    flex-wrap: wrap;
 }
 nav img{
     width: 145px;
@@ -86,7 +89,26 @@ nav img{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+.loginbtn {
+    margin-left: auto;
+}
 
+nav .loginbtn button {
+    padding: 8px 16px;
+    background-color: white;
+    color: #f44336;
+    border: 2px ;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+nav .loginbtn button:hover {
+    background-color: #f44336;
+    color: white;
+}
 
 #chat-messages {
   max-height: 100px; 
@@ -181,8 +203,9 @@ nav .ri-menu-line
 .page2{
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 55px;
     width: 80%;
+    
 }
 p{
     color: #777;
